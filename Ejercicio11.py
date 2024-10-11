@@ -7,7 +7,7 @@
 inversion = float(input("Introduce la inversión inicial: "))
 interes = 0.04
 balance1 = inversion * (1 + interes)
-print("Balance año 1--> " + str(round(balance1, 2)))
+print("Balance año 1 --> " + str(round(balance1, 2)))
 balance2 = balance1 * (1 + interes)
 print("Balance año 2 --> " + str(round(balance2, 2)))
 balance3 = balance2 * (1 + interes)
